@@ -1,4 +1,4 @@
-# Solecitos
+# ☀ Solecitos' Website
 
 Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool kindergarten in Hannover, Germany.
 
@@ -39,4 +39,8 @@ Deployment is done via
 npm deploy
 ```
 
-using github pages and by following [react-gh-pages](https://github.com/gitname/react-gh-pages). 
+using github pages and by following [react-gh-pages](https://github.com/gitname/react-gh-pages).
+
+## License
+
+Copyright Solecitos
