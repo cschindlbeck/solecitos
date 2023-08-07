@@ -2,7 +2,7 @@
 
 Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool kindergarten in Hannover, Germany.
 
-## Feature Requests
+## Feature Requests/TODO
 
 - [x] Mobile first UX
 - [ ] Popup dialog for news
