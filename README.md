@@ -8,6 +8,9 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] Popup dialog for news
 - [ ] Bilingual (german/spanish)
 - [ ] Contact form
+- [ ] Crayon font
+- [ ] Automate deployment on main with github actions per release
+
 
 ## Development
 
@@ -27,8 +30,12 @@ npm start
 
 ## Deployment
 
-Production branch is `main`.
+Production branch is `main` with Semver.
 
-Deployment is done via github pages following [react-gh-pages](https://github.com/gitname/react-gh-pages).
+Deployment is done via
 
-TODO: automate this on main with github actions
+```bash
+npm deploy
+```
+
+using github pages and by following [react-gh-pages](https://github.com/gitname/react-gh-pages). 
