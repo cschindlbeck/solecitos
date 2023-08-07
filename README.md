@@ -10,6 +10,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] Contact form
 - [ ] Crayon font
 - [ ] Automate deployment on main with github actions per release
+- [ ] Logo pngs with translucent background
 
 
 ## Development
