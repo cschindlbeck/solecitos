@@ -50,7 +50,7 @@ const HeroComponent = () => {
         >
           Die deutsch/spanische Kindertagesstätte
         </Typography>{" "}
-        <Link to="/about">
+        <Link to="/contact">
           <Box mt={4}>
             <SolecitosButton>Zur Anmeldung</SolecitosButton>{" "}
           </Box>

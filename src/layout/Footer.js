@@ -62,7 +62,6 @@ const Footer = () => {
                 vorstand@solecitos.de
               </Typography>
               <Typography variant="body2" >
-                fax at blub<br />
                 0511/30096684
               </Typography>
             </Grid>
