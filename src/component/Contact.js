@@ -56,7 +56,7 @@ const Contact = () => {
               Anmeldung
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Sie möchten Ihr Kind in unserer Einrichtung anmelden? <br/>
+              Sie möchten Ihr Kind in unserer Einrichtung anmelden? <br />
               Bitte senden Sie uns den ausgefüllten Aufnahmeantrag per E-Mail zu oder geben
               ihn persönlich in der Kita während der regulären Öffnungszeiten ab.
             </Typography>
@@ -64,7 +64,7 @@ const Contact = () => {
               Aufnahmeantrag
             </SolecitosButton>
             <Typography variant="body2" color="text.secondary">
-              Die Vergabe der Plätze erfolgt in der Regel im ersten Quartal des Jahres für den Kita-Start ab 1.8..<br/>
+              Die Vergabe der Plätze erfolgt in der Regel im ersten Quartal des Jahres für den Kita-Start ab 1.8..<br />
               Wenn Sie Fragen zu uns und unserer Einrichtung haben, können Sie uns sehr gerne unter 0511 30096684 erreichen.
             </Typography>
           </CardContent>

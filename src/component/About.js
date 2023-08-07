@@ -57,8 +57,7 @@ export default function About() {
                 Estrellitas
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Krippengruppe mit 15 Kinder im Alter von 12 Monaten bis 3
-                Jahren.
+                Krippengruppe mit 15 Kinder im Alter von 12 Monaten bis 3 Jahren.
               </Typography>
             </CardContent>
           </Card>

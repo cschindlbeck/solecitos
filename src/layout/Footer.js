@@ -32,41 +32,41 @@ const Footer = () => {
           boxShadow: 0,
         }}
       >
-      <Container maxWidth="lg">
-        <Grid container spacing={2}>
-          <Grid item xs={12} sm={6} md={3}>
-            <Typography variant="body1" pb={1}>
+        <Container maxWidth="lg">
+          <Grid container spacing={2}>
+            <Grid item xs={12} sm={6} md={3}>
+              <Typography variant="body1" pb={1}>
                 Adresse
               </Typography>
-            <Typography variant="body2" >
-                Solecitos e.V.<br/>
-                Lister Kirchweg 69<br/>
-                30163 Hannover<br/>
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Typography variant="body1" pb={1}>
+              <Typography variant="body2" >
+                Solecitos e.V.<br />
+                Lister Kirchweg 69<br />
+                30163 Hannover<br />
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <Typography variant="body1" pb={1}>
                 Öffnungszeiten
-            </Typography>
-            <Typography variant="body2" >
-              Montag bis Freitag<br/>
-              08:00 - 16:00 Uhr<br/>
-              außer an Feiertagen
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3}>
-            <Typography variant="body1" pb={1}>
-              Kontakt
-            </Typography>
+              </Typography>
+              <Typography variant="body2" >
+                Montag bis Freitag<br />
+                08:00 - 16:00 Uhr<br />
+                außer an Feiertagen
+              </Typography>
+            </Grid>
+            <Grid item xs={12} sm={6} md={3}>
+              <Typography variant="body1" pb={1}>
+                Kontakt
+              </Typography>
               <Typography variant="body2" component="a" href="mailto:vorstand@solecitos.de">
-              vorstand@solecitos.de
-            </Typography>
-            <Typography variant="body2" >
-              fax at blub<br/>
-              0511/30096684
-            </Typography>
+                vorstand@solecitos.de
+              </Typography>
+              <Typography variant="body2" >
+                fax at blub<br />
+                0511/30096684
+              </Typography>
+            </Grid>
           </Grid>
-        </Grid>
           <Grid container direction="column" alignItems="center">
             <Grid item xs={12} pt={2}>
               <Typography variant="body2">
@@ -86,8 +86,8 @@ const Footer = () => {
                 </Link>
               </Typography>
             </Grid>
-            </Grid>
-      </Container>
+          </Grid>
+        </Container>
       </Box>
 
     </>
