@@ -1,8 +1,14 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Container, Typography  } from "@mui/material";
 
 const Datenschutz = () => {
-  return <Typography>datenschutz</Typography>;
+  return (
+    <React.Fragment>
+      <Container>
+      <Typography variant="h3">Datenschutz</Typography>
+      </Container>
+    </React.Fragment>
+  );
 };
 
 export default Datenschutz;
