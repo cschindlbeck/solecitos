@@ -6,7 +6,7 @@ import estrellitasImage from "../images/toddler.jpg";
 import lunasImage from "../images/kids.jpeg";
 import aboutusImage from "../images/aboutus.jpeg";
 
-const text=`
+const text = `
 Der Verein Solecitos e. V. ist eine bilinguale
 (deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
 2008 mit dem Ziel gegründet die frühkindliche Erziehung von

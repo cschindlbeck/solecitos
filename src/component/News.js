@@ -23,7 +23,7 @@ const CenteredDiv = styled('div')`
   margin-top: 10px; /* Adjust margin as needed */
 `;
 
-const newsText =`
+const newsText = `
 Die Kindertagestätte Solecitos e.V. lädt jedes Jahr im Herbst und im Frühling zum Verkaufen und Kaufen ein. Wir freuen uns auf Euch!
 Nächster Termin: 24.09.23
 Öffnungszeiten: 14-16Uhr
@@ -42,9 +42,9 @@ const News = () => {
       <CustomTypography variant="body2">
         {newsText}
       </CustomTypography>
-        <Typography variant="body2" component="a" href="mailto:solecitos.basar@solecitos.de">
-          solecitos.basar@solecitos.de
-        </Typography>.
+      <Typography variant="body2" component="a" href="mailto:solecitos.basar@solecitos.de">
+        solecitos.basar@solecitos.de
+      </Typography>.
       <CenteredDiv>
         <SolecitosButton onClick={handleDownloadPDF} startIcon={<FaDownload />}>
           Flyer downloaden
