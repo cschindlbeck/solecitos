@@ -12,6 +12,7 @@ const SolecitosButton = styled(Button)`
   display: inline-flex; /* Use inline-flex display */
   justify-content: center;
   align-items: center;
+  margin: ${(props) => props.theme.spacing(1)};
 `;
 
 export default SolecitosButton;

@@ -1,4 +1,5 @@
 import React from "react";
+import { styled } from "@mui/system";
 import { CardContent, Card, Box, Container, Paper, Typography, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
 
@@ -7,6 +8,14 @@ import HeroComponent from "../shared/Hero";
 
 import estrellitasImage from "../images/maedchen.jpg";
 
+// redundant to testimonialImage??
+const HomeImage = styled(CardMedia)`
+  // width: 175px;
+  // height: 175px;
+  // border-radius: 50%;
+  // object-fit: cover;
+  // margin-bottom: ${(props) => props.theme.spacing(0)};
+`;
 
 const Home = () => {
 
@@ -33,14 +42,14 @@ const Home = () => {
           }}
         >
           {titleList.map((service, index) => (
-          <Card style={{ maxWidth: 345 }}>
-            <CardMedia
+          <Card key={index} style={{ maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <HomeImage
               component="img"
               height="140"
               image={imageList[index]}
-              alt="estrellitas"
+              alt={imageList[index]}
             />
-            <CardContent>
+            <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
               <Typography gutterBottom variant="h5" component="div">
                   {titleList[index]}
               </Typography>
