@@ -3,7 +3,7 @@ import * as React from "react";
 import { CardContent, Card, Grid, CardMedia, Typography } from "@mui/material";
 
 
-import estrellitasImage from "../images/healthy.jpeg";
+import estrellitasImage from "../images/toddler.jpg";
 import lunasImage from "../images/kids.jpeg";
 import aboutusImage from "../images/aboutus.jpeg";
 
