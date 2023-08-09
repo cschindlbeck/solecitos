@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import SolecitosButton from "../shared/SolecitosButton";
 import HeroComponent from "../shared/Hero";
 
-import estrellitasImage from "../images/toddler.jpg";
+import estrellitasImage from "../images/maedchen.jpg";
 
 
 const Home = () => {
@@ -48,7 +48,7 @@ const Home = () => {
                   {contentList[index]}
               </Typography>
               <Link to="/about">
-                <SolecitosButton> LERNE MEHR </SolecitosButton>{" "}
+                <SolecitosButton> LERNE MEHR </SolecitosButton>
               </Link>
             </CardContent>
           </Card>
