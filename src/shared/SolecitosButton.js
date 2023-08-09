@@ -6,6 +6,12 @@ const SolecitosButton = styled(Button)`
   background-color: ${(props) => props.theme.palette.secondary.main};
   position: relative;
   overflow: hidden;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  display: inline-flex; /* Use inline-flex display */
+  justify-content: center;
+  align-items: center;
 `;
 
 export default SolecitosButton;

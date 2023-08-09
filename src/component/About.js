@@ -6,6 +6,16 @@ import estrellitasImage from "../images/toddler.jpg";
 import lunasImage from "../images/kids.jpeg";
 import aboutusImage from "../images/aboutus.jpeg";
 
+const text=`
+Der Verein Solecitos e. V. ist eine bilinguale
+(deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
+2008 mit dem Ziel gegründet die frühkindliche Erziehung von
+Kindern mit spanischsprachigem Hintergrund zu fördern. Unsere
+Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r
+Erzieher/in konsequent ihre/seine Sprache spricht entweder
+Deutsch oder Spanisch.
+`;
+
 export default function About() {
   return (
     <React.Fragment>
@@ -24,14 +34,8 @@ export default function About() {
               <Typography gutterBottom variant="h5" component="div">
                 Solecitos e.V.
               </Typography>
-              <Typography variant="body1" color="text.secondary">
-                Der Verein Solecitos e. V. ist eine bilinguale
-                (deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
-                2008 mit dem Ziel gegründet die frühkindliche Erziehung von
-                Kindern mit spanischsprachigem Hintergrund zu fördern. Unsere
-                Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r
-                Erzieher/in konsequent ihre/seine Sprache spricht entweder
-                Deutsch oder Spanisch.
+              <Typography variant="body2" color="text.secondary">
+                {text}
               </Typography>
             </CardContent>
           </Card>
@@ -75,7 +79,7 @@ export default function About() {
                 Lunas
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Kindergartengruppe mit 25 Kindern zwischen 3 und 6 Jahren.
+                Kindergartengruppe mit 25 Kindern im Alter zwischen 3 und 6 Jahren.
               </Typography>
             </CardContent>
           </Card>

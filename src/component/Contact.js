@@ -2,6 +2,7 @@ import React from "react";
 import { Grid, CardContent, Card, CardMedia, Typography } from "@mui/material";
 import banner from "../images/banner.jpg";
 
+import { styled } from "@mui/system";
 import examplePDF from '../assets/Aufnahmeantrag_01-2023.pdf';
 import { FaDownload } from 'react-icons/fa';
 import SolecitosButton from "../shared/SolecitosButton";
@@ -13,6 +14,13 @@ const handleDownloadPDF = () => {
   link.download = 'Aufnahmeantrag_Solecitos.pdf';
   link.click();
 };
+
+// duplicate from news page
+const CenteredDiv = styled('div')`
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Adjust margin as needed */
+`;
 
 const Contact = () => {
   return (
@@ -60,9 +68,11 @@ const Contact = () => {
               Bitte senden Sie uns den ausgefüllten Aufnahmeantrag per E-Mail zu oder geben
               ihn persönlich in der Kita während der regulären Öffnungszeiten ab.
             </Typography>
-            <SolecitosButton onClick={handleDownloadPDF} startIcon={<FaDownload />}>
-              Aufnahmeantrag
-            </SolecitosButton>
+            <CenteredDiv>
+              <SolecitosButton onClick={handleDownloadPDF} startIcon={<FaDownload />}>
+                Aufnahmeantrag
+              </SolecitosButton>
+            </CenteredDiv>
             <Typography variant="body2" color="text.secondary">
               Die Vergabe der Plätze erfolgt in der Regel im ersten Quartal des Jahres für den Kita-Start ab 1.8..<br />
               Wenn Sie Fragen zu uns und unserer Einrichtung haben, können Sie uns sehr gerne unter 0511 30096684 erreichen.
