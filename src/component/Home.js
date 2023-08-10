@@ -1,5 +1,12 @@
 import React from "react";
-import { CardContent, Card, Box, Container, Typography, CardMedia } from "@mui/material";
+import {
+  CardContent,
+  Card,
+  Box,
+  Container,
+  Typography,
+  CardMedia,
+} from "@mui/material";
 import { Link } from "react-router-dom";
 
 import SolecitosButton from "../shared/SolecitosButton";
@@ -10,7 +17,6 @@ import healthyImage from "../images/healthy.jpeg";
 import movementImage from "../images/movement.jpg";
 
 const Home = () => {
-
   const titleList = ["Bilingual", "Ernährung", "Bewegung"];
   const bilingualText = `Unsere Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r Erzieher/in konsequent ihre/seine Sprache spricht  entweder Deutsch oder Spanisch.`;
   const healthText = `Gesunde Ernährung ist uns wichtig, daher beziehen wir unsere Mittagsgerichte von einem regionalen Bio-Caterer`;
@@ -33,14 +39,28 @@ const Home = () => {
           }}
         >
           {titleList.map((service, index) => (
-            <Card key={index} style={{ maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <Card
+              key={index}
+              style={{
+                maxWidth: 345,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
               <CardMedia
                 component="img"
                 height="140"
                 image={imageList[index]}
                 alt={imageList[index]}
               />
-              <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <CardContent
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
                 <Typography gutterBottom variant="h5" component="div">
                   {titleList[index]}
                 </Typography>

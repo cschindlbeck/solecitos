@@ -18,7 +18,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] impressum datenschutz underscore
 - [ ] replace images with free license ones
 - [ ] PDF Flyer einpflegen
-- [ ] bei home sind die cards nicht mittig beim pixel 
+- [ ] bei home sind die cards nicht mittig beim pixel
 
 ## Development
 
@@ -50,7 +50,16 @@ npm deploy
 
 following [react-gh-pages](https://github.com/gitname/react-gh-pages).
 
+## Precommit Lint
+
+Lint and formatting check are done via pre-commit. The configuration file is .precommit-config.yaml and checks need node version 14 which can be set via
+
+```bash
+nvm install 14
+```
+
 ## License
 
 Copyright Solecitos
+
 Author Chris Schindlbeck

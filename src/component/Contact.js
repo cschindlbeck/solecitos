@@ -1,23 +1,30 @@
 import React from "react";
-import { Container, Grid, Divider, CardContent, Card, CardMedia, Typography } from "@mui/material";
+import {
+  Container,
+  Grid,
+  Divider,
+  CardContent,
+  Card,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 import banner_left from "../images/banner_left.jpg";
 import banner_right from "../images/banner_right.jpg";
 
 import { styled } from "@mui/system";
-import examplePDF from '../assets/Aufnahmeantrag_01-2023.pdf';
-import { FaDownload } from 'react-icons/fa';
+import examplePDF from "../assets/Aufnahmeantrag_01-2023.pdf";
+import { FaDownload } from "react-icons/fa";
 import SolecitosButton from "../shared/SolecitosButton";
 
-
 const handleDownloadPDF = () => {
-  const link = document.createElement('a');
+  const link = document.createElement("a");
   link.href = examplePDF;
-  link.download = 'Aufnahmeantrag_Solecitos.pdf';
+  link.download = "Aufnahmeantrag_Solecitos.pdf";
   link.click();
 };
 
 // duplicate from news page
-const CenteredDiv = styled('div')`
+const CenteredDiv = styled("div")`
   display: flex;
   justify-content: center;
   margin-top: 10px; /* Adjust margin as needed */
@@ -27,7 +34,7 @@ const text = `
 Sie möchten Ihr Kind in unserer Einrichtung anmelden?
 Bitte senden Sie uns den ausgefüllten Aufnahmeantrag per E-Mail zu oder geben
 ihn persönlich in der Kita während der regulären Öffnungszeiten ab.
-`
+`;
 const Contact = () => {
   return (
     <Container>
@@ -53,8 +60,10 @@ const Contact = () => {
                 Kontakt
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Solecitos e.V.<br />
-                Lister Kirchweg 69<br />
+                Solecitos e.V.
+                <br />
+                Lister Kirchweg 69
+                <br />
                 30163 Hannover
               </Typography>
             </CardContent>
@@ -75,17 +84,27 @@ const Contact = () => {
               <Typography variant="body2" color="text.secondary">
                 {text}
               </Typography>
-              <Typography variant="body2" component="a" href="mailto:anmeldung@solecitos.de">
+              <Typography
+                variant="body2"
+                component="a"
+                href="mailto:anmeldung@solecitos.de"
+              >
                 anmeldung@solecitos.de
               </Typography>
               <CenteredDiv>
-                <SolecitosButton onClick={handleDownloadPDF} startIcon={<FaDownload />}>
+                <SolecitosButton
+                  onClick={handleDownloadPDF}
+                  startIcon={<FaDownload />}
+                >
                   Aufnahmeantrag
                 </SolecitosButton>
               </CenteredDiv>
               <Typography variant="body2" color="text.secondary">
-                Die Vergabe der Plätze erfolgt in der Regel im ersten Quartal des Jahres für den Kita-Start ab 1.8..<br />
-                Wenn Sie Fragen zu uns und unserer Einrichtung haben, können Sie uns sehr gerne unter 0511 30096684 erreichen.
+                Die Vergabe der Plätze erfolgt in der Regel im ersten Quartal
+                des Jahres für den Kita-Start ab 1.8..
+                <br />
+                Wenn Sie Fragen zu uns und unserer Einrichtung haben, können Sie
+                uns sehr gerne unter 0511 30096684 erreichen.
               </Typography>
             </CardContent>
           </Card>

@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 
 import { Link } from "react-router-dom";
@@ -20,7 +19,6 @@ const containerStyle = {
 };
 
 const Footer = () => {
-
   return (
     <>
       <Box style={containerStyle} />
@@ -38,19 +36,24 @@ const Footer = () => {
               <Typography variant="body1" pb={1}>
                 Adresse
               </Typography>
-              <Typography variant="body2" >
-                Solecitos e.V.<br />
-                Lister Kirchweg 69<br />
-                30163 Hannover<br />
+              <Typography variant="body2">
+                Solecitos e.V.
+                <br />
+                Lister Kirchweg 69
+                <br />
+                30163 Hannover
+                <br />
               </Typography>
             </Grid>
             <Grid item xs={12} sm={6} md={3}>
               <Typography variant="body1" pb={1}>
                 Öffnungszeiten
               </Typography>
-              <Typography variant="body2" >
-                Montag bis Freitag<br />
-                08:00 - 16:00 Uhr<br />
+              <Typography variant="body2">
+                Montag bis Freitag
+                <br />
+                08:00 - 16:00 Uhr
+                <br />
                 außer an Feiertagen
               </Typography>
             </Grid>
@@ -58,12 +61,14 @@ const Footer = () => {
               <Typography variant="body1" pb={1}>
                 Kontakt
               </Typography>
-              <Typography variant="body2" component="a" href="mailto:vorstand@solecitos.de">
+              <Typography
+                variant="body2"
+                component="a"
+                href="mailto:vorstand@solecitos.de"
+              >
                 vorstand@solecitos.de
               </Typography>
-              <Typography variant="body2" >
-                0511/30096684
-              </Typography>
+              <Typography variant="body2">0511/30096684</Typography>
             </Grid>
           </Grid>
           <Grid container direction="column" alignItems="center">
@@ -88,7 +93,6 @@ const Footer = () => {
           </Grid>
         </Container>
       </Box>
-
     </>
   );
 };

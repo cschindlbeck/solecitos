@@ -14,7 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import { styled } from "@mui/system";
 import Logo from "../images/logo-1.jpg";
-import { Button } from '@mui/material';
+import { Button } from "@mui/material";
 
 // NavBar buttons
 const StyledButton = styled(Button)`
@@ -24,7 +24,7 @@ const StyledButton = styled(Button)`
   // background-color: ${(props) => props.theme.palette.primary.main};
   // text-shadow: 1px 0.5px 0px rgba(0, 0, 0, 1);
   &:hover {
-  color: ${(props) => props.theme.palette.primary.contrastText};
+    color: ${(props) => props.theme.palette.primary.contrastText};
   }
 `;
 
