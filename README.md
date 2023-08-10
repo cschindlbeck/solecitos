@@ -7,6 +7,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [x] Mobile first UX
 - [x] Logo pngs with translucent background
 - [x] Automate deployment on main with github actions per release
+- [ ] Staff cards
 - [ ] Crayon font
 - [ ] Popup dialog for news
 - [ ] Bilingual (german/spanish)
@@ -33,14 +34,17 @@ npm start
 
 Production branch is `main` with Semver.
 
-Deployment is done via
+Deployment is done automatically via github actions for each push on main with version number in commit message on branch gh-pages
+
+Manually, this can be achieved via
 
 ```bash
 npm deploy
 ```
 
-using github pages and by following [react-gh-pages](https://github.com/gitname/react-gh-pages).
+following [react-gh-pages](https://github.com/gitname/react-gh-pages).
 
 ## License
 
 Copyright Solecitos
+Author Chris Schindlbeck
