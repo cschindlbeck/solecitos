@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Grid, Divider, CardContent, Card, CardMedia, Typography } from "@mui/material";
-import banner from "../images/banner.jpg";
+import banner_left from "../images/banner_left.jpg";
+import banner_right from "../images/banner_right.jpg";
 
 import { styled } from "@mui/system";
 import examplePDF from '../assets/Aufnahmeantrag_01-2023.pdf';
@@ -39,7 +40,7 @@ const Contact = () => {
             <CardMedia
               component="img"
               height="140"
-              image={banner}
+              image={banner_right}
               alt="estrellitas"
             />
             <CardContent>
@@ -59,7 +60,7 @@ const Contact = () => {
             <CardMedia
               component="img"
               height="140"
-              image={banner}
+              image={banner_left}
               alt="estrellitas"
             />
             <CardContent>
