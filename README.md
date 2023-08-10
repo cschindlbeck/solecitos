@@ -5,12 +5,12 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 ## Feature Requests/TODO
 
 - [x] Mobile first UX
+- [x] Logo pngs with translucent background
+- [x] Automate deployment on main with github actions per release
+- [ ] Crayon font
 - [ ] Popup dialog for news
 - [ ] Bilingual (german/spanish)
-- [ ] Contact form
-- [ ] Crayon font
-- [ ] Automate deployment on main with github actions per release
-- [ ] Logo pngs with translucent background
+- [ ] Contact form, probably needs SMTP server
 
 
 ## Development
@@ -23,7 +23,7 @@ To develop locally, install dependencies via
 npm install
 ```
 
-Then, run the website on [localhost:3000](localhost:3000) via
+Then, run the website on [localhost:3000](http://localhost:3000/) via
 
 ```bash
 npm start
