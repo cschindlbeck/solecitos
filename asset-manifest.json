@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/solecitos/static/css/main.073c9b0a.css",
-    "main.js": "/solecitos/static/js/main.cefb1e6f.js",
+    "main.js": "/solecitos/static/js/main.b85537c0.js",
     "static/js/787.4ed436f3.chunk.js": "/solecitos/static/js/787.4ed436f3.chunk.js",
     "static/media/kids.jpg": "/solecitos/static/media/kids.1050e7de874608373469.jpg",
     "static/media/basar.jpeg": "/solecitos/static/media/basar.14ac209031f690511c01.jpeg",
@@ -17,11 +17,11 @@
     "index.html": "/solecitos/index.html",
     "static/media/layered-waves-haikei.svg": "/solecitos/static/media/layered-waves-haikei.33e2a3baeb1fce0cab8a8066ae440bb9.svg",
     "main.073c9b0a.css.map": "/solecitos/static/css/main.073c9b0a.css.map",
-    "main.cefb1e6f.js.map": "/solecitos/static/js/main.cefb1e6f.js.map",
+    "main.b85537c0.js.map": "/solecitos/static/js/main.b85537c0.js.map",
     "787.4ed436f3.chunk.js.map": "/solecitos/static/js/787.4ed436f3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.cefb1e6f.js"
+    "static/js/main.b85537c0.js"
   ]
 }
