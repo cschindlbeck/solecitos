@@ -12,7 +12,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] Popup dialog for news
 - [ ] Bilingual (german/spanish)
 - [ ] Contact form, probably needs SMTP server
-
+- [ ] Sticky header
 
 ## Development
 
