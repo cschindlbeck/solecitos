@@ -1,13 +1,20 @@
 import * as React from "react";
 
-import { Container, Divider, CardContent, Card, Grid, CardMedia, Typography } from "@mui/material";
+import {
+  Container,
+  Divider,
+  CardContent,
+  Card,
+  Grid,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 
 import estrellitasImage from "../images/toddler.jpg";
 import lunasImage from "../images/kids.jpeg";
 import aboutusImage from "../images/aboutus.jpeg";
 
 export default function About() {
-
   const text = `
   Der Verein Solecitos e. V. ist eine bilinguale
   (deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
@@ -64,7 +71,8 @@ export default function About() {
                 Estrellitas
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Krippengruppe mit 15 Kinder im Alter von 12 Monaten bis 3 Jahren.
+                Krippengruppe mit 15 Kinder im Alter von 12 Monaten bis 3
+                Jahren.
               </Typography>
             </CardContent>
           </Card>
@@ -82,7 +90,8 @@ export default function About() {
                 Lunas
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Kindergartengruppe mit 25 Kindern im Alter zwischen 3 und 6 Jahren.
+                Kindergartengruppe mit 25 Kindern im Alter zwischen 3 und 6
+                Jahren.
               </Typography>
             </CardContent>
           </Card>
