@@ -13,7 +13,8 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] Bilingual (german/spanish)
 - [ ] Contact form, probably needs SMTP server
 - [ ] Sticky header
-- [ ] anmeldung@solecitos.de hinterlegen 
+- [ ] anmeldung@solecitos.de hinterlegen
+- [ ] replace images with free license ones 
 ## Development
 
 Development is done on `devel` branch, with feature branches.
