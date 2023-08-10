@@ -1,6 +1,5 @@
 import React from "react";
-import { styled } from "@mui/system";
-import { CardContent, Card, Box, Container, Paper, Typography, CardMedia } from "@mui/material";
+import { CardContent, Card, Box, Container, Typography, CardMedia } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import SolecitosButton from "../shared/SolecitosButton";
