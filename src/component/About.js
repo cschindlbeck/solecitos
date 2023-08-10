@@ -1,7 +1,6 @@
 import * as React from "react";
 
-import { CardContent, Card, Grid, CardMedia, Typography } from "@mui/material";
-
+import { Container, Divider, CardContent, Card, Grid, CardMedia, Typography } from "@mui/material";
 
 import estrellitasImage from "../images/toddler.jpg";
 import lunasImage from "../images/kids.jpeg";
@@ -9,7 +8,7 @@ import aboutusImage from "../images/aboutus.jpeg";
 
 export default function About() {
 
-  const text =`
+  const text = `
   Der Verein Solecitos e. V. ist eine bilinguale
   (deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
   2008 mit dem Ziel gegründet die frühkindliche Erziehung von
@@ -20,7 +19,9 @@ export default function About() {
   `;
 
   return (
-    <React.Fragment>
+    <Container>
+      <Typography variant="h3">Über uns</Typography>
+      <Divider></Divider>
       <Grid container justifyContent="center">
         <Grid item>
           <Card
@@ -87,6 +88,6 @@ export default function About() {
           </Card>
         </Grid>
       </Grid>
-    </React.Fragment>
+    </Container>
   );
 }

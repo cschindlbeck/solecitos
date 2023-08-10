@@ -15,7 +15,7 @@ const Home = () => {
   const bilingualText = `Unsere Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r Erzieher/in konsequent ihre/seine Sprache spricht  entweder Deutsch oder Spanisch.`;
   const healthText = `Gesunde Ernährung ist uns wichtig, daher beziehen wir unsere Mittagsgerichte von einem regionalen Bio-Caterer`;
   const movementText = `Ausflüge, hausinterner Spielplatz`;
-  const contentList = [bilingualText,healthText,movementText ];
+  const contentList = [bilingualText, healthText, movementText];
   const imageList = [bilingualImage, healthyImage, movementImage];
 
   return (
@@ -33,25 +33,25 @@ const Home = () => {
           }}
         >
           {titleList.map((service, index) => (
-          <Card key={index} style={{ maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={imageList[index]}
-              alt={imageList[index]}
-            />
-            <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-              <Typography gutterBottom variant="h5" component="div">
+            <Card key={index} style={{ maxWidth: 345, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <CardMedia
+                component="img"
+                height="140"
+                image={imageList[index]}
+                alt={imageList[index]}
+              />
+              <CardContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <Typography gutterBottom variant="h5" component="div">
                   {titleList[index]}
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
                   {contentList[index]}
-              </Typography>
-              <Link to="/about">
-                <SolecitosButton> LERNE MEHR </SolecitosButton>
-              </Link>
-            </CardContent>
-          </Card>
+                </Typography>
+                <Link to="/about">
+                  <SolecitosButton> LERNE MEHR </SolecitosButton>
+                </Link>
+              </CardContent>
+            </Card>
           ))}
         </Box>
       </Container>
