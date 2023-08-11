@@ -23,6 +23,11 @@ const CenteredDiv = styled('div')`
   margin-top: 10px; /* Adjust margin as needed */
 `;
 
+const text = `
+Sie möchten Ihr Kind in unserer Einrichtung anmelden?
+Bitte senden Sie uns den ausgefüllten Aufnahmeantrag per E-Mail zu oder geben
+ihn persönlich in der Kita während der regulären Öffnungszeiten ab.
+`
 const Contact = () => {
   return (
     <Container>
@@ -68,9 +73,10 @@ const Contact = () => {
                 Anmeldung
               </Typography>
               <Typography variant="body2" color="text.secondary">
-                Sie möchten Ihr Kind in unserer Einrichtung anmelden? <br />
-                Bitte senden Sie uns den ausgefüllten Aufnahmeantrag per E-Mail zu oder geben
-                ihn persönlich in der Kita während der regulären Öffnungszeiten ab.
+                {text}
+              </Typography>
+              <Typography variant="body2" component="a" href="mailto:anmeldung@solecitos.de">
+                anmeldung@solecitos.de
               </Typography>
               <CenteredDiv>
                 <SolecitosButton onClick={handleDownloadPDF} startIcon={<FaDownload />}>

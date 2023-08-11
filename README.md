@@ -7,14 +7,17 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [x] Mobile first UX
 - [x] Logo pngs with translucent background
 - [x] Automate deployment on main with github actions per release
+- [x] anmeldung@solecitos.de hinterlegen
 - [ ] Staff cards
 - [ ] Crayon font
 - [ ] Popup dialog for news
 - [ ] Bilingual (german/spanish)
 - [ ] Contact form, probably needs SMTP server
 - [ ] Sticky header
-- [ ] anmeldung@solecitos.de hinterlegen
+- [ ] email einheitlich
+- [ ] impressum datenschutz underscore
 - [ ] replace images with free license ones
+
 ## Development
 
 Development is done on `devel` branch, with feature branches.

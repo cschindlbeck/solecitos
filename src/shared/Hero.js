@@ -39,8 +39,8 @@ const HeroComponent = () => {
             color: "primary.main",
           }}
         >
-          Willkommen bei den Solecitos!{" "}
-        </Typography>{" "}
+          Willkommen bei den Solecitos!
+        </Typography>
         <Typography
           variant="h6"
           sx={{
@@ -49,12 +49,12 @@ const HeroComponent = () => {
           }}
         >
           Die deutsch/spanische Kindertagesstätte
-        </Typography>{" "}
+        </Typography>
         <Link to="/contact">
           <Box mt={4}>
-            <SolecitosButton>Zur Anmeldung</SolecitosButton>{" "}
+            <SolecitosButton>Zur Anmeldung</SolecitosButton>
           </Box>
-        </Link>{" "}
+        </Link>
       </Box>
     </Box>
   );
