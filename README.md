@@ -17,6 +17,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] email einheitlich
 - [ ] impressum datenschutz underscore
 - [ ] replace images with free license ones
+- [ ] PDF Flyer einpflegen
 
 ## Development
 
