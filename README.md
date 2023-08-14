@@ -36,6 +36,25 @@ Then, run the website on [localhost:3000](http://localhost:3000/) via
 npm start
 ```
 
+## Docker
+
+
+```bash
+docker build -t solecitos .
+```
+
+Then, you can run either
+
+```bash
+docker run -p 3000:3000 -v $(pwd):/solecitos solecitos
+```
+
+or use docker-compose and run
+
+```bash
+docker compose up
+```
+
 ## Deployment
 
 Production branch is `main` with Semver.
