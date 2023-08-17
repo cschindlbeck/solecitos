@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 
 import SolecitosButton from "../shared/SolecitosButton";
+import SolecitosCard from "../shared/SolecitosCard";
 import HeroComponent from "../shared/Hero";
 
 import bilingualImage from "../images/bilingual.jpg";
@@ -18,22 +19,9 @@ import movementImage from "../images/movement.jpg";
 
 const titleList = ["Bilinguale Immersion", "Ernährung", "Bewegung"];
 
-const bilingualText = `Unsere Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r Erzieher/in konsequent
-ihre/seine Sprache spricht  entweder Deutsch oder Spanisch. Die Kinder tauchen dabei in beide Sprachen, Spanisch und
-Deutsch, ein und lernen diese auf natürliche Weise ganz ohne Sprachunterricht.
-`;
-
-const healthText = `Gesunde Ernährung ist uns wichtig, daher beziehen wir unsere täglich frisch zubereiteten
-Mittagessen von einem regionalen Bio-Caterer. Dieser geht im Bedarfsfall auch auf Unverträglichkeiten oder besondere
-Ernährungsvorstellungen ein.
-`;
-
-const movementText = `Um die Kinder in ihrer ganzheitlichen Entwicklung zu unterstützen und ihnen die Möglichkeit zu geben,
-Erfahrungen auch außerhalb der Kita zu sammeln, nutzen wir viele Angebote außerhalb von Solecitos. Dazu gehören
-z.B. die Waldwoche, Besuche von Spielplätzen, Museen, Schwimmbad sowie Theater und gemeinsame Einkäufe im Stadtteil.
-Unser hausinterner Spielplatz umfasst rund 450 qm, mit Sandspielbereiche, Rasenflächen,
-Bobby-Car-Rennstrecke Nestschaukel, Rutsche und Klettergerüste für alle Altersstufen.
-`;
+const bilingualText = `Unsere Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r Erzieher/in konsequent ihre/seine Sprache spricht  entweder Deutsch oder Spanisch. Die Kinder tauchen dabei in beide Sprachen, Spanisch und Deutsch, ein und lernen diese auf natürliche Weise ganz ohne Sprachunterricht.`;
+const healthText = `Gesunde Ernährung ist uns wichtig, daher beziehen wir unsere täglich frisch zubereiteten Mittagessen von einem regionalen Bio-Caterer. Dieser geht im Bedarfsfall auch auf Unverträglichkeiten oder besondere Ernährungsvorstellungen ein.`;
+const movementText = `Um die Kinder in ihrer ganzheitlichen Entwicklung zu unterstützen und ihnen die Möglichkeit zu geben, Erfahrungen auch außerhalb der Kita zu sammeln, nutzen wir viele Angebote außerhalb von Solecitos. Dazu gehören z.B. die Waldwoche, Besuche von Spielplätzen, Museen, Schwimmbad sowie Theater und gemeinsame Einkäufe im Stadtteil. Unser hausinterner Spielplatz umfasst rund 450 qm, mit Sandspielbereiche, Rasenflächen, Bobby-Car-Rennstrecke Nestschaukel, Rutsche und Klettergerüste für alle Altersstufen.`;
 
 const Home = () => {
   const contentList = [bilingualText, healthText, movementText];
@@ -45,8 +33,7 @@ const Home = () => {
       <Container maxWidth="lg">
         <Box
           sx={{
-            my: 2,
-            pt: 4,
+            p: 4,
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
             justifyContent: "space-between",
@@ -54,39 +41,20 @@ const Home = () => {
           }}
         >
           {titleList.map((service, index) => (
-            <Card
-              key={index}
-              style={{
-                maxWidth: 345,
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
-            >
-              <CardMedia
-                component="img"
-                height="140"
-                image={imageList[index]}
-                alt={imageList[index]}
-              />
-              <CardContent
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                }}
-              >
-                <Typography gutterBottom variant="h5" component="div">
-                  {titleList[index]}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {contentList[index]}
-                </Typography>
-                <Link to="/about">
-                  <SolecitosButton> LERNE MEHR </SolecitosButton>
-                </Link>
-              </CardContent>
-            </Card>
+            <SolecitosCard
+              image={imageList[index]}
+              title={titleList[index]}
+              content={
+                <>
+                  <Typography variant="body2" color="text.secondary">
+                    {contentList[index]}
+                  </Typography>
+                  <Link to="/about">
+                    <SolecitosButton> LERNE MEHR </SolecitosButton>
+                  </Link>
+                </>
+              }
+            />
           ))}
         </Box>
       </Container>

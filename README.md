@@ -13,7 +13,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] impressum datenschutz underscore
 - [ ] replace images with free license ones
 - [ ] PDF Flyer einpflegen
-- [ ] bei home sind die cards nicht mittig beim pixel
+- [x] bei home sind die cards nicht mittig beim pixel
 
 ## Development
 

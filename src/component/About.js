@@ -1,102 +1,69 @@
 import * as React from "react";
 
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Container,
-  Divider,
-  Grid,
-  Typography,
-} from "@mui/material";
+import { Box, Container, Divider, Typography } from "@mui/material";
 
 import estrellitasImage from "../images/toddler.jpg";
 import lunasImage from "../images/kids.jpeg";
 import aboutusImage from "../images/aboutus.jpeg";
+import SolecitosCard from "../shared/SolecitosCard";
+
+const text = `
+Der Verein Solecitos e. V. ist eine bilinguale
+(deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
+2008 mit dem Ziel gegründet die frühkindliche Erziehung von
+Kindern mit spanischsprachigem Hintergrund zu fördern. Unsere
+Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r
+Erzieher/in konsequent ihre/seine Sprache spricht entweder
+Deutsch oder Spanisch.
+`;
 
 export default function About() {
-  const text = `
-  Der Verein Solecitos e. V. ist eine bilinguale
-  (deutsch-spanische) Kindertagesstätte in Hannover-List. Er wurde
-  2008 mit dem Ziel gegründet die frühkindliche Erziehung von
-  Kindern mit spanischsprachigem Hintergrund zu fördern. Unsere
-  Fachkräfte arbeiten nach der Immersionsmethode, d.h. dass jede/r
-  Erzieher/in konsequent ihre/seine Sprache spricht entweder
-  Deutsch oder Spanisch.
-  `;
-
   return (
     <Container>
       <Typography variant="h3">Über uns</Typography>
       <Divider></Divider>
-      <Grid container justifyContent="center">
-        <Grid item>
-          <Card
-            style={{ maxWidth: 690, marginTop: "20px", marginBottom: "20px" }}
-          >
-            <CardMedia
-              component="img"
-              height="140"
-              image={aboutusImage}
-              alt="ueberuns"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Solecitos e.V.
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                {text}
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-      </Grid>
-      <Grid
-        container
-        spacing={2}
-        direction="row"
-        justifyContent="center"
-        alignItems="center"
+      <Box
+        sx={{
+          p: 4,
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          justifyContent: "space-between",
+          gap: 4,
+        }}
       >
-        <Grid item sx={6}>
-          <Card style={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={estrellitasImage}
-              alt="estrellitas"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Estrellitas
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Krippengruppe mit 15 Kinder im Alter von 12 Monaten bis 3
-                Jahren.
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item sx={6}>
-          <Card style={{ maxWidth: 345 }}>
-            <CardMedia
-              component="img"
-              height="140"
-              image={lunasImage}
-              alt="lunas"
-            />
-            <CardContent>
-              <Typography gutterBottom variant="h5" component="div">
-                Lunas
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                Kindergartengruppe mit 25 Kindern im Alter zwischen 3 und 6
-                Jahren.
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-      </Grid>
+        <SolecitosCard
+          image={aboutusImage}
+          title={"Solecitos e.V."}
+          content={
+            <Typography variant="body2" color="text.secondary">
+              {text}
+            </Typography>
+          }
+        />
+        <SolecitosCard
+          image={estrellitasImage}
+          title={"Estrellitas & Lunas"}
+          content={
+            <Typography variant="body2" color="text.secondary">
+              {`"Estrellitas" betreut neugierige 12 Monate bis 3 Jahre alte Kinder in einer liebevollen Umgebung. Unsere einfühlsamen Betreuer fördern erste Entdeckungen und Geborgenheit. In der "Lunas" Gruppe erleben 25 Kinder im Alter von 3 bis 6 Jahren spannende Abenteuer und kreatives Lernen. Unsere engagierten Pädagogen legen hier den Grundstein für lebenslanges Wachstum und Freundschaften. Jedes Kind wird als einzigartiges Licht geschätzt und von unserem herzlichen Team auf seiner Reise unterstützt.`}
+            </Typography>
+          }
+        />
+        <SolecitosCard
+          image={lunasImage}
+          title={"Zusammenspiel"}
+          content={
+            <Typography variant="body2" color="text.secondary">
+              {`Damit die Kinder nicht nur “ihre Gruppe” als Lernort nutzen können, gibt es diverse
+Angebote, an denen beiden Gruppen beteiligt sind. Zu diesen gehören wöchentlich
+regelmäßig stattfindende offene Gruppen, Projektarbeiten zu gemeinsamen Festen,
+gemeinsame Morgenkreise sowie ein gemeinsames kulturelles Frühstück in der Halle.
+Die Kinder haben so die Möglichkeit voneinander zu lernen und aufeinander zu
+achten.`}
+            </Typography>
+          }
+        />
+      </Box>
       <Typography variant="h3">Pädagogischen Highlights</Typography>
       <Divider></Divider>
     </Container>

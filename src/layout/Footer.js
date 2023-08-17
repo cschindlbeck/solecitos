@@ -30,7 +30,7 @@ const Footer = () => {
           boxShadow: 0,
         }}
       >
-        <Container maxWidth="lg">
+        <Container>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={3}>
               <Typography variant="body1" pb={1}>
