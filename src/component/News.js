@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Divider, Typography } from "@mui/material";
+import { styled } from "@mui/system";
 import { FaDownload } from "react-icons/fa";
 
 import SolecitosButton from "../shared/SolecitosButton";
-
 import flyerJPG from "../images/basar.jpeg";
-import { styled } from "@mui/system";
 
 const handleDownloadPDF = () => {
   const link = document.createElement("a");
