@@ -5,7 +5,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 ## Feature Requests/TODO
 
 - [x] Mobile first UX
-- [ ] Staff cards
+- [x] Staff cards
 - [ ] Crayon font
 - [ ] Popup dialog for news
 - [ ] Sticky header
@@ -13,7 +13,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [x] impressum datenschutz underscore
 - [x] replace images with free license ones
 - [ ] PDF Flyer einpflegen
-- [ ] bei home sind die cards nicht mittig beim pixel
+- [x] bei home sind die cards nicht mittig beim pixel
 
 ## Development
 
