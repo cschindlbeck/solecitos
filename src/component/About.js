@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import { Box, Container, Divider, Typography } from "@mui/material";
 
 import aboutusImage from "../images/education_small.jpg";
