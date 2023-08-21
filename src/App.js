@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./layout/Navbar";
 import Home from "./component/Home";
 import About from "./component/About";
+import Team from "./component/Team";
 import News from "./component/News";
 import Footer from "./layout/Footer";
 import Impressum from "./component/Impressum";
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/solecitos" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/news" element={<News />} />
         <Route path="/datenschutz" element={<Datenschutz />} />

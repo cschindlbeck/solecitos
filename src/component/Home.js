@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <HeroComponent />
-      <Container maxWidth="lg">
+      <Container>
         <Box
           sx={{
             p: 4,
