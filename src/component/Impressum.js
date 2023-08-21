@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider, Container, Typography } from "@mui/material";
+import { Container, Divider, Typography } from "@mui/material";
 
 const Impressum = () => {
   return (

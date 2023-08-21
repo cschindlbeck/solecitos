@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  Container,
-  Grid,
-  Divider,
-  CardContent,
   Card,
+  CardContent,
   CardMedia,
+  Container,
+  Divider,
+  Grid,
   Typography,
 } from "@mui/material";
 import banner_left from "../images/banner_left.jpg";
@@ -65,6 +65,16 @@ const Contact = () => {
                 Lister Kirchweg 69
                 <br />
                 30163 Hannover
+                <br />
+                Telefon: 0511 300 96 684
+                <br />
+                Bürozeiten: Montag 08:00 -13:30 / Dienstag 13.30-16.00 / Freitag
+                08:00 - 14:00
+                <br />
+                E-Mail: leitung@solecitos.de
+                <br />
+                Besichtigungstermine: Jeder 1. und 3. Freitag im Monat (wir
+                bitten um telefonische Anmeldung)
               </Typography>
             </CardContent>
           </Card>
@@ -101,7 +111,7 @@ const Contact = () => {
               </CenteredDiv>
               <Typography variant="body2" color="text.secondary">
                 Die Vergabe der Plätze erfolgt in der Regel im ersten Quartal
-                des Jahres für den Kita-Start ab 1.8..
+                des Jahres für den Kita-Start ab 01.08..
                 <br />
                 Wenn Sie Fragen zu uns und unserer Einrichtung haben, können Sie
                 uns sehr gerne unter 0511 30096684 erreichen.
