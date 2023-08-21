@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Divider, Typography } from "@mui/material";
-import SolecitosButton from "../shared/SolecitosButton";
 import { FaDownload } from "react-icons/fa";
+
+import SolecitosButton from "../shared/SolecitosButton";
+
 import flyerJPG from "../images/basar.jpeg";
 import { styled } from "@mui/system";
 
@@ -26,7 +28,7 @@ const CenteredDiv = styled("div")`
 const newsText = `
 Die Kindertagestätte Solecitos e.V. lädt jedes Jahr im Herbst und im Frühling zum Verkaufen und Kaufen ein. Wir freuen uns auf Euch!
 Nächster Termin: 24.09.23
-Öffnungszeiten: 14-16Uhr
+Öffnungszeiten: 14:00-16:00 Uhr
 Kinderbekleidung, Spielzeug, Bücher, Kinderfahrzeuge, etc.
 Kaffee und Kuchen auch zum Mitnehmen!
 Tische und Sitzgelegenheit für den eigenen Stand sind mitzubringen.
@@ -55,10 +57,6 @@ const News = () => {
           Flyer downloaden
         </SolecitosButton>
       </CenteredDiv>
-      <Divider textAlign="right">13.08.2022</Divider>
-      <Typography variant="h6" color="secondary.main">
-        Second Hand Basar Herbst 2022
-      </Typography>
     </Container>
   );
 };

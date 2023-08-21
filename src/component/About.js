@@ -1,12 +1,12 @@
 import * as React from "react";
 
 import {
+  Card,
+  CardContent,
+  CardMedia,
   Container,
   Divider,
-  CardContent,
-  Card,
   Grid,
-  CardMedia,
   Typography,
 } from "@mui/material";
 
@@ -97,6 +97,8 @@ export default function About() {
           </Card>
         </Grid>
       </Grid>
+      <Typography variant="h3">Pädagogischen Highlights</Typography>
+      <Divider></Divider>
     </Container>
   );
 }
