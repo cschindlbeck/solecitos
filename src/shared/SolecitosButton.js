@@ -13,6 +13,10 @@ const SolecitosButton = styled(Button)`
   justify-content: center;
   align-items: center;
   margin: ${(props) => props.theme.spacing(1)};
+
+  &:hover {
+    background-color: ${(props) => props.theme.palette.secondary.dark};
+  }
 `;
 
 export default SolecitosButton;
