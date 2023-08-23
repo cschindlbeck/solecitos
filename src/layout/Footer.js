@@ -2,10 +2,19 @@ import React from "react";
 import { Box, Container, Grid, Typography } from "@mui/material";
 
 import { Link } from "react-router-dom";
+import { styled } from "@mui/system";
 
 // Background created with https://app.haikei.app/
 // with colors ff8400 and fdba72
 import backgroundImage from "../images/layered-waves-haikei.svg";
+
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
 
 const containerStyle = {
   backgroundImage: "url(" + backgroundImage + ")",
@@ -75,19 +84,9 @@ const Footer = () => {
             <Grid item xs={12} pt={2}>
               <Typography variant="body2">
                 {`Copyright ${new Date().getFullYear()} Solecitos | `}
-                <Link
-                  to="/impressum"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  Impressum
-                </Link>
+                <StyledLink to="/impressum">Impressum</StyledLink>
                 {" | "}
-                <Link
-                  to="/datenschutz"
-                  style={{ textDecoration: "none", color: "inherit" }}
-                >
-                  Datenschutz
-                </Link>
+                <StyledLink to="/datenschutz">Datenschutz</StyledLink>
               </Typography>
             </Grid>
           </Grid>
