@@ -11,7 +11,7 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 - [ ] Sticky header
 - [ ] email einheitlich
 - [x] impressum datenschutz underscore
-- [ ] replace images with free license ones
+- [x] replace images with free license ones
 - [ ] PDF Flyer einpflegen
 - [ ] bei home sind die cards nicht mittig beim pixel
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-import backgroundImage from "../images/kids.jpg";
+import backgroundImage from "../images/home_small.jpg";
 
 import SolecitosButton from "../shared/SolecitosButton";
 
