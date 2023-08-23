@@ -10,9 +10,9 @@ import {
   Typography,
 } from "@mui/material";
 
-import estrellitasImage from "../images/toddler.jpg";
-import lunasImage from "../images/kids.jpeg";
-import aboutusImage from "../images/aboutus.jpeg";
+import aboutusImage from "../images/education_small.jpg";
+import estrellitasImage from "../images/toddler_small.jpg";
+import lunasImage from "../images/kids_small.jpg";
 
 export default function About() {
   const text = `

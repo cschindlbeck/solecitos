@@ -12,9 +12,9 @@ import {
 import SolecitosButton from "../shared/SolecitosButton";
 import HeroComponent from "../shared/Hero";
 
-import bilingualImage from "../images/bilingual.jpg";
-import healthyImage from "../images/healthy.jpeg";
-import movementImage from "../images/movement.jpg";
+import bilingualImage from "../images/bilingual_small.jpg";
+import healthyImage from "../images/healthy_small.jpg";
+import movementImage from "../images/movement_small.jpg";
 
 const titleList = ["Bilinguale Immersion", "Ernährung", "Bewegung"];
 
