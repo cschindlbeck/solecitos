@@ -17,25 +17,19 @@ import Logo from "../images/logo-1.jpg";
 import { Button } from "@mui/material";
 
 // NavBar buttons
-const StyledButton = styled(Button)`
-  background-color: ${(props) => props.theme.palette.primary.main};
+const NavbarButton = styled(Button)`
   color: ${(props) => props.theme.palette.primary.contrastText};
   margin: 10px;
-  // background-color: ${(props) => props.theme.palette.primary.main};
-  // text-shadow: 1px 0.5px 0px rgba(0, 0, 0, 1);
   &:hover {
-    color: ${(props) => props.theme.palette.primary.contrastText};
+    background-color: ${(props) => props.theme.palette.primary.main};
   }
 `;
 
 // Hamburger menu buttons
 const StyledListItemText = styled(ListItemText)`
-  color: ${(props) => props.theme.palette.primary.main};
-  // background-color: ${(props) => props.theme.palette.primary.main};
-  // text-shadow: 1px 0.5px 0px rgba(0, 0, 0, 1);
+  color: ${(props) => props.theme.palette.primary.contrastText};
   &:hover {
     background-color: ${(props) => props.theme.palette.primary.main};
-    color: ${(props) => props.theme.palette.primary.contrastText};
   }
 `;
 
@@ -65,7 +59,7 @@ const Navbar = () => {
   const renderLinks = () => {
     return navLinks.map((link) => (
       <Link to={link.path} key={link.id}>
-        <StyledButton color="primary">{link.title}</StyledButton>
+        <NavbarButton color="primary">{link.title}</NavbarButton>
       </Link>
     ));
   };
