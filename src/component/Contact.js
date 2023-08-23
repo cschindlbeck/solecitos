@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Divider, Grid, Typography } from "@mui/material";
+import { Box, Container, Divider, Typography } from "@mui/material";
 import banner_left from "../images/banner_left.jpg";
 import banner_right from "../images/banner_right.jpg";
 
@@ -22,11 +22,6 @@ const CenteredDiv = styled("div")`
   display: flex;
   justify-content: center;
   margin-top: 10px; /* Adjust margin as needed */
-`;
-
-const CustomTypography = styled(Typography)`
-  white-space: pre-line;
-  line-height: 1.5;
 `;
 
 const text = `

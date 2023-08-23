@@ -1,13 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  Box,
-  Card,
-  CardContent,
-  CardMedia,
-  Container,
-  Typography,
-} from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 
 import SolecitosButton from "../shared/SolecitosButton";
 import SolecitosCard from "../shared/SolecitosCard";
