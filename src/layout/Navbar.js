@@ -16,6 +16,10 @@ import { styled } from "@mui/system";
 import Logo from "../images/logo-1.jpg";
 import { Button } from "@mui/material";
 
+const StyledContainer = styled(Container)`
+  background-color: ${(props) => props.theme.palette.primary.light};
+`;
+
 // NavBar buttons
 const NavbarButton = styled(Button)`
   color: ${(props) => props.theme.palette.primary.contrastText};
@@ -34,7 +38,7 @@ const StyledListItemText = styled(ListItemText)`
 `;
 
 const StyledAppBar = styled(AppBar)`
-  background-color: white;
+  background-color: ${(props) => props.theme.palette.primary.light};
 `;
 
 const StyledDrawer = styled(Drawer)`
@@ -78,7 +82,7 @@ const Navbar = () => {
   };
 
   return (
-    <Container maxWidth="lg">
+    <StyledContainer>
       <StyledAppBar position="static" elevation={0}>
         <Toolbar>
           <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
@@ -112,7 +116,7 @@ const Navbar = () => {
           </div>
         </StyledDrawer>
       </Hidden>
-    </Container>
+    </StyledContainer>
   );
 };
 
