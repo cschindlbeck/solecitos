@@ -13,7 +13,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import { styled } from "@mui/system";
-import Logo from "../images/logo-1.jpg";
+import Logo from "../images/logo-1.png";
 import { Button } from "@mui/material";
 
 const StyledContainer = styled(Container)`
