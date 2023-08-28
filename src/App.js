@@ -11,10 +11,12 @@ import Impressum from "./component/Impressum";
 import Datenschutz from "./component/Datenschutz";
 import Contact from "./component/Contact";
 
+import Popup from "./shared/Popup";
 const App = () => {
   return (
     <Router>
       <Navbar />
+      <Popup />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/solecitos" element={<Home />} />
