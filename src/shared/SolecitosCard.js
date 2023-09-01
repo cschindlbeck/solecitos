@@ -1,20 +1,11 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  useMediaQuery,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 function SolecitosCard({ image, title, content }) {
-  const isMediumScreen = useMediaQuery((theme) => theme.breakpoints.down("md"));
-
-  const maxWidth = isMediumScreen ? "100%" : "50%";
   return (
     <Card
       style={{
-        maxWidth: maxWidth,
+        maxWidth: "100%",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

@@ -1,7 +1,8 @@
 import React from "react";
-import { Box, Container, Divider, Typography } from "@mui/material";
+import { Box, Container, Divider, Grid, Typography } from "@mui/material";
 import banner_left from "../images/banner_left.jpg";
 import banner_right from "../images/banner_right.jpg";
+import CardContainer from "../shared/SolecitosCardContainer";
 
 import { styled } from "@mui/system";
 import examplePDF from "../assets/Aufnahmeantrag_01-2023.pdf";
@@ -127,32 +128,26 @@ const Contact = () => {
     <Container>
       <Typography variant="h3">Kontakt</Typography>
       <Divider></Divider>
-      <Box
-        sx={{
-          p: 4,
-          display: "flex",
-          flexDirection: { xs: "column", md: "row" },
-          justifyContent: "space-between",
-          gap: 4,
-        }}
-      >
-        {/* <Grid container spacing={2}> */}
-        {/*   <Grid item xs={6} sm={6} md={6}> */}
-        <SolecitosCard
-          image={banner_right}
-          title={"Kontakt"}
-          content={content}
-        />
-        {/* </Grid> */}
-        {/* <Grid item xs={6} sm={6} md={6}> */}
-        <SolecitosCard
-          image={banner_left}
-          title={"Anmeldung"}
-          content={content2}
-        />
-        {/*   </Grid> */}
-        {/* </Grid> */}
-      </Box>
+      <Grid container spacing={2}>
+        <Grid item xs={12} md={6}>
+          <CardContainer>
+            <SolecitosCard
+              image={banner_right}
+              title={"Kontakt"}
+              content={content}
+            />
+          </CardContainer>
+        </Grid>
+        <Grid item xs={12} md={6}>
+          <CardContainer>
+            <SolecitosCard
+              image={banner_left}
+              title={"Anmeldung"}
+              content={content2}
+            />
+          </CardContainer>
+        </Grid>
+      </Grid>
     </Container>
   );
 };

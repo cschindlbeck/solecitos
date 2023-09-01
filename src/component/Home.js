@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Box, Container, Typography } from "@mui/material";
+import { Grid, Container, Typography } from "@mui/material";
+import CardContainer from "../shared/SolecitosCardContainer";
 
 import SolecitosButton from "../shared/SolecitosButton";
 import SolecitosCard from "../shared/SolecitosCard";
@@ -24,32 +25,28 @@ const Home = () => {
     <React.Fragment>
       <HeroComponent />
       <Container>
-        <Box
-          sx={{
-            p: 4,
-            display: "flex",
-            flexDirection: { xs: "column", md: "row" },
-            justifyContent: "space-between",
-            gap: 4,
-          }}
-        >
-          {titleList.map((service, index) => (
-            <SolecitosCard
-              image={imageList[index]}
-              title={titleList[index]}
-              content={
-                <>
-                  <Typography variant="body2" color="text.secondary">
-                    {contentList[index]}
-                  </Typography>
-                  <Link to="/about">
-                    <SolecitosButton> LERNE MEHR </SolecitosButton>
-                  </Link>
-                </>
-              }
-            />
+        <Grid container spacing={2}>
+          {titleList.map((_, index) => (
+            <Grid item xs={12} md={4} key={index}>
+              <CardContainer>
+                <SolecitosCard
+                  image={imageList[index]}
+                  title={titleList[index]}
+                  content={
+                    <>
+                      <Typography variant="body2" color="text.secondary">
+                        {contentList[index]}
+                      </Typography>
+                      <Link to="/about">
+                        <SolecitosButton>LERNE MEHR</SolecitosButton>
+                      </Link>
+                    </>
+                  }
+                />
+              </CardContainer>
+            </Grid>
           ))}
-        </Box>
+        </Grid>
       </Container>
     </React.Fragment>
   );
