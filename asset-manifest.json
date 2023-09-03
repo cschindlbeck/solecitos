@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/solecitos/static/css/main.073c9b0a.css",
-    "main.js": "/solecitos/static/js/main.b85537c0.js",
+    "main.css": "/solecitos/static/css/main.6e135b73.css",
+    "main.js": "/solecitos/static/js/main.214d6831.js",
     "static/js/787.4ed436f3.chunk.js": "/solecitos/static/js/787.4ed436f3.chunk.js",
-    "static/media/kids.jpg": "/solecitos/static/media/kids.1050e7de874608373469.jpg",
     "static/media/basar.jpeg": "/solecitos/static/media/basar.14ac209031f690511c01.jpeg",
-    "static/media/toddler.jpg": "/solecitos/static/media/toddler.6a6881357f19afd3cfba.jpg",
+    "static/media/healthy_small.jpg": "/solecitos/static/media/healthy_small.0dfd1a22670431820fd6.jpg",
     "static/media/Aufnahmeantrag_01-2023.pdf": "/solecitos/static/media/Aufnahmeantrag_01-2023.75b50710ad660cefbea9.pdf",
-    "static/media/movement.jpg": "/solecitos/static/media/movement.6db7ec0556918f0f0274.jpg",
-    "static/media/banner.jpg": "/solecitos/static/media/banner.0240cb3ae8cc0211f9f6.jpg",
-    "static/media/logo-1.jpg": "/solecitos/static/media/logo-1.4beefca68d8421b4523b.jpg",
-    "static/media/bilingual.jpg": "/solecitos/static/media/bilingual.6b326c778ff8184df183.jpg",
-    "static/media/healthy.jpeg": "/solecitos/static/media/healthy.a72f10062db2e833519f.jpeg",
-    "static/media/aboutus.jpeg": "/solecitos/static/media/aboutus.90546b68bf2755b61949.jpeg",
-    "static/media/kids.jpeg": "/solecitos/static/media/kids.b8f406628435c1a8e72d.jpeg",
+    "static/media/julia.jpeg": "/solecitos/static/media/julia.00acc00f09c1ba1ad9b9.jpeg",
+    "static/media/anna.jpeg": "/solecitos/static/media/anna.4b6f366af14d2e8c86f3.jpeg",
+    "static/media/home_small.jpg": "/solecitos/static/media/home_small.66dafe9d05928d946ee0.jpg",
+    "static/media/belen.jpeg": "/solecitos/static/media/belen.6d96a9bd45d105fa08f2.jpeg",
+    "static/media/education_small.jpg": "/solecitos/static/media/education_small.963aeca963844795c824.jpg",
+    "static/media/toddler_small.jpg": "/solecitos/static/media/toddler_small.88ba0ee5df3c32016ec5.jpg",
+    "static/media/movement_small.jpg": "/solecitos/static/media/movement_small.48d41f6addb9f3aae24c.jpg",
+    "static/media/kids_small.jpg": "/solecitos/static/media/kids_small.58a19c0139c108b6b823.jpg",
+    "static/media/bilingual_small.jpg": "/solecitos/static/media/bilingual_small.19b612508ee110df4fb0.jpg",
+    "static/media/banner_right.jpg": "/solecitos/static/media/banner_right.27b30a1c4e3ded992c8d.jpg",
+    "static/media/banner_left.jpg": "/solecitos/static/media/banner_left.fc40635d2ce5049b978e.jpg",
+    "static/media/logo-1.png": "/solecitos/static/media/logo-1.573b1b46e8379941444e.png",
     "index.html": "/solecitos/index.html",
     "static/media/layered-waves-haikei.svg": "/solecitos/static/media/layered-waves-haikei.33e2a3baeb1fce0cab8a8066ae440bb9.svg",
-    "main.073c9b0a.css.map": "/solecitos/static/css/main.073c9b0a.css.map",
-    "main.b85537c0.js.map": "/solecitos/static/js/main.b85537c0.js.map",
+    "main.6e135b73.css.map": "/solecitos/static/css/main.6e135b73.css.map",
+    "main.214d6831.js.map": "/solecitos/static/js/main.214d6831.js.map",
     "787.4ed436f3.chunk.js.map": "/solecitos/static/js/787.4ed436f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b85537c0.js"
+    "static/css/main.6e135b73.css",
+    "static/js/main.214d6831.js"
   ]
 }
