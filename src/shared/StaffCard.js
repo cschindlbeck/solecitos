@@ -14,14 +14,12 @@ const StaffImage = styled(CardMedia)`
   height: 175px;
   border-radius: 50%;
   object-fit: cover;
-  // margin-bottom: ${(props) => props.theme.spacing(0)};
 `;
 
 const StaffCardContainer = styled(Card)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 25%;
   padding: ${(props) => props.theme.spacing(2)};
 
@@ -30,7 +28,7 @@ const StaffCardContainer = styled(Card)`
   }
 `;
 
-const StaffCard = ({ imageSrc, name, position, test }) => {
+const StaffCard = ({ imageSrc, name, position, text }) => {
   return (
     <StaffCardContainer>
       <StaffImage component="img" src={imageSrc} alt={name} />
@@ -43,7 +41,7 @@ const StaffCard = ({ imageSrc, name, position, test }) => {
             {position}
           </Typography>
           <Typography variant="body2" color="text.secondary" gutterBottom>
-            {test}
+            {text}
           </Typography>
         </CardContent>
       </TextContainer>

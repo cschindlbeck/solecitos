@@ -26,7 +26,7 @@ export default function Team() {
             imageSrc={annaImage}
             name="Marie"
             position="Vorsitzende"
-            test="Marie ist ein begeisterte Erzieherin, die mit ihrem musikalischen Talent
+            text="Marie ist ein begeisterte Erzieherin, die mit ihrem musikalischen Talent
             strahlt. Als leidenschaftliche Salsa-Tänzerin bringt sie temperamentvolle Rhythmen in den Kindergartenalltag.
             Dabei lehrt sie Kinder spielerisch spanische Lieder und Tänze, welche die Freude und Gemeinschaft fördern.
             Ihre Energie verleiht dem Team eine einzigartige Dynamik.
@@ -36,7 +36,7 @@ export default function Team() {
             imageSrc={belenImage}
             name="Belén"
             position="Erzieherin"
-            test="
+            text="
             Belén ist die einfühlsame Erzieherin mit lateinamerikanischen Wurzeln, welche den den Kindern kulturelle Vielfalt vermittelt.
             Sie singt fröhliche Lieder auf Spanisch und motiviert die Kleinen zu kreativem Spiel.
             Beléns Hingabe zur Bildung und ihr herzliches Wesen machen sie zu einem wichtigen Teil des Teams, das die Kinder in einer liebevollen Umgebung fördert.
@@ -46,8 +46,8 @@ export default function Team() {
             imageSrc={juliaImage}
             name="Julia"
             position="Erzieherin"
-            test="Julia eine wichtige Säule des Teams. Ihre spanischen Wurzeln und ihre einfühlsame Natur schaffen eine Atmosphäre des Vertrauens.
-            Mit kreativen Bastelideen und liebevoller Betreuung unterstützt Ana die kindliche Entwicklung.
+            text="Julia eine wichtige Säule des Teams. Ihre spanischen Wurzeln und ihre einfühlsame Natur schaffen eine Atmosphäre des Vertrauens.
+            Mit kreativen Bastelideen und liebevoller Betreuung unterstützt Julia die kindliche Entwicklung.
             Ihr kultureller Hintergrund bereichert die Vielfalt im Kindergarten und fördert ein offenes Miteinander."
           />
         </StaffSectionContainer>
