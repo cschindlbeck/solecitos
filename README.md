@@ -58,7 +58,7 @@ Deployment is done automatically via github actions for each push on main with v
 Manually, this can be achieved via
 
 ```bash
-npm deploy
+npm run deploy
 ```
 
 following [react-gh-pages](https://github.com/gitname/react-gh-pages).
