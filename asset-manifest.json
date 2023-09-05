@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/solecitos/static/css/main.6e135b73.css",
-    "main.js": "/solecitos/static/js/main.214d6831.js",
+    "main.css": "/solecitos/static/css/main.d3c023c1.css",
+    "main.js": "/solecitos/static/js/main.a4face2e.js",
     "static/js/787.4ed436f3.chunk.js": "/solecitos/static/js/787.4ed436f3.chunk.js",
     "static/media/basar.jpeg": "/solecitos/static/media/basar.14ac209031f690511c01.jpeg",
     "static/media/healthy_small.jpg": "/solecitos/static/media/healthy_small.0dfd1a22670431820fd6.jpg",
@@ -20,12 +20,12 @@
     "static/media/logo-1.png": "/solecitos/static/media/logo-1.573b1b46e8379941444e.png",
     "index.html": "/solecitos/index.html",
     "static/media/layered-waves-haikei.svg": "/solecitos/static/media/layered-waves-haikei.33e2a3baeb1fce0cab8a8066ae440bb9.svg",
-    "main.6e135b73.css.map": "/solecitos/static/css/main.6e135b73.css.map",
-    "main.214d6831.js.map": "/solecitos/static/js/main.214d6831.js.map",
+    "main.d3c023c1.css.map": "/solecitos/static/css/main.d3c023c1.css.map",
+    "main.a4face2e.js.map": "/solecitos/static/js/main.a4face2e.js.map",
     "787.4ed436f3.chunk.js.map": "/solecitos/static/js/787.4ed436f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e135b73.css",
-    "static/js/main.214d6831.js"
+    "static/css/main.d3c023c1.css",
+    "static/js/main.a4face2e.js"
   ]
 }
