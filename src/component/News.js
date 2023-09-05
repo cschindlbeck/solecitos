@@ -1,5 +1,14 @@
 import React from "react";
-import { Container, Divider, Typography } from "@mui/material";
+import {
+  Box,
+  Card,
+  CardContent,
+  CardMedia,
+  Container,
+  Divider,
+  Grid,
+  Typography,
+} from "@mui/material";
 import { styled } from "@mui/system";
 import { FaDownload } from "react-icons/fa";
 
@@ -15,13 +24,12 @@ const handleDownloadPDF = () => {
 
 const CustomTypography = styled(Typography)`
   white-space: pre-line;
-  line-height: 1.5;
+  line-height: 2;
 `;
 
 const CenteredDiv = styled("div")`
   display: flex;
   justify-content: center;
-  margin-top: 10px; /* Adjust margin as needed */
 `;
 
 const newsText = `
@@ -39,23 +47,59 @@ const News = () => {
     <Container>
       <Typography variant="h3">Neuigkeiten</Typography>
       <Divider textAlign="right">24.09.2023</Divider>
-      <Typography variant="h6" color="secondary.main">
-        Second Hand Basar Herbst 2023
-      </Typography>
-      <CustomTypography variant="body2">{newsText}</CustomTypography>
-      <Typography
-        variant="body2"
-        component="a"
-        href="mailto:solecitos.basar@solecitos.de"
-      >
-        solecitos.basar@solecitos.de
-      </Typography>
-      .
-      <CenteredDiv>
-        <SolecitosButton onClick={handleDownloadPDF} startIcon={<FaDownload />}>
-          Flyer downloaden
-        </SolecitosButton>
-      </CenteredDiv>
+      <Box mt={4}>
+        <Card
+          style={{
+            maxWidth: "100%",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Grid container spacing={2}>
+            <Grid item xs={12} md={8}>
+              <CardContent
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
+                <Typography variant="h6" color="secondary.main">
+                  Second Hand Basar Herbst 2023
+                </Typography>
+                <>
+                  <CustomTypography variant="body2">
+                    {newsText}
+                  </CustomTypography>
+                  <Typography
+                    variant="body2"
+                    component="a"
+                    href="mailto:solecitos.basar@solecitos.de"
+                  >
+                    solecitos.basar@solecitos.de
+                  </Typography>
+                  <CenteredDiv>
+                    <SolecitosButton
+                      onClick={handleDownloadPDF}
+                      startIcon={<FaDownload />}
+                    >
+                      Flyer downloaden
+                    </SolecitosButton>
+                  </CenteredDiv>
+                </>
+              </CardContent>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <CardMedia
+                component="img"
+                style={{ width: "100%", height: "100%" }}
+                image={flyerJPG}
+                alt={flyerJPG}
+              />
+            </Grid>
+          </Grid>
+        </Card>
+      </Box>
     </Container>
   );
 };
