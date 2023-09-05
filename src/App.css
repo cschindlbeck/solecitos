@@ -13,6 +13,13 @@
   }
 }
 
+/* Target iOS devices */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  a {
+    text-decoration: none;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
