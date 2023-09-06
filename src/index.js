@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider, createTheme } from "@mui/material";
+import "./fonts/Chalkduster.ttf";
 
 const theme = createTheme({
   palette: {
@@ -18,9 +19,6 @@ const theme = createTheme({
     },
   },
   typography: {
-    // fontFamily: "Chilanka",
-    // defined in index.html
-    // fontFamily: "'Hanalei Fill', cursive", // Replace "Your Custom Font" with the name of your desired font
     h1: {
       fontSize: "3rem",
       fontWeight: 600,
@@ -32,6 +30,7 @@ const theme = createTheme({
     h3: {
       fontSize: "1.5rem",
       fontWeight: 600,
+      fontFamily: "'Chalkduster', regular",
     },
   },
 });

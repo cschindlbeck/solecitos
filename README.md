@@ -4,6 +4,23 @@ Homepage for [Solecitos e.V.](https://cschindlbeck.github.io/solecitos/), a bili
 
 Written in React with Material UI, automatically deployed to Github pages.
 
+## Feature Requests/TODO
+
+- [x] Mobile first UX
+- [x] Staff cards
+- [x] Crayon font
+- [x] Logo pngs with translucent background
+- [x] Automate deployment on main with github actions per release
+- [x] anmeldung@solecitos.de hinterlegen
+- [ ] Popup dialog for news
+- [ ] Staff cards
+- [ ] Sticky header
+- [ ] email einheitlich
+- [x] impressum datenschutz underscore
+- [x] replace images with free license ones
+- [ ] PDF Flyer einpflegen
+- [x] bei home sind die cards nicht mittig beim pixel
+
 ## Development
 
 Development is done on `devel` branch, with feature branches.
