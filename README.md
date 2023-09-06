@@ -6,8 +6,12 @@ Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool 
 
 - [x] Mobile first UX
 - [x] Staff cards
-- [ ] Crayon font
+- [x] Crayon font
+- [x] Logo pngs with translucent background
+- [x] Automate deployment on main with github actions per release
+- [x] anmeldung@solecitos.de hinterlegen
 - [ ] Popup dialog for news
+- [ ] Staff cards
 - [ ] Sticky header
 - [ ] email einheitlich
 - [x] impressum datenschutz underscore

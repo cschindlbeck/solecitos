@@ -1,3 +1,11 @@
+/* index.css */
+@font-face {
+  font-family: "Chalkduster";
+  src: url("./fonts/Chalkduster.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #fcfbf2;
   /* not synced with index.js */
