@@ -1,19 +1,8 @@
 # ☀ Solecitos' Website
 
-Homepage for [Solecitos e.V.](https://www.solecitos.de/), a bilingual preschool kindergarten in Hannover, Germany.
+Homepage for [Solecitos e.V.](https://cschindlbeck.github.io/solecitos/), a bilingual preschool kindergarten in Hannover, Germany.
 
-## Feature Requests/TODO
-
-- [x] Mobile first UX
-- [x] Staff cards
-- [ ] Crayon font
-- [ ] Popup dialog for news
-- [ ] Sticky header
-- [ ] email einheitlich
-- [x] impressum datenschutz underscore
-- [x] replace images with free license ones
-- [ ] PDF Flyer einpflegen
-- [x] bei home sind die cards nicht mittig beim pixel
+Written in React with Material UI, automatically deployed to Github pages.
 
 ## Development
 
@@ -51,9 +40,9 @@ docker compose up
 
 ## Deployment
 
-Production branch is `main` with Semver.
+Production branch is `main` with [SemVer](https://semver.org/).
 
-Deployment is done automatically via github actions for each push on main with version number in commit message on branch gh-pages
+Deployment is done automatically via Github actions for each push on main with version number in commit message on branch gh-pages
 
 Manually, this can be achieved via
 
